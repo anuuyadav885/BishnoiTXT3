@@ -31,22 +31,22 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hey Freind 😎 I Am A Bot For Download Links From Your **.TXT** File. \n\n **Bot Made By Surya Bishnoi 🚩** \n Send me /BISHNOI Command And Follow Steps..")
+    editable = await m.reply_text("HELLO Baby🍷,\nI AM TXT DOWNLOADER\n\n BOT MADE BY:- Tapori 2.0 😇...")
 
 
-@bot.on_message(filters.command("stop"))
+@bot.on_message(filters.command("rukja"))
 async def restart_handler(_, m):
-    await m.reply_text("**Stopped**⚠️", True)
+    await m.reply_text("**ruk gaya**😜😜", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 
-@bot.on_message(filters.command(["srishti"]))
+@bot.on_message(filters.command(["baby"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('Send me **TXT File**⚡️')
+    editable = await m.reply_text('𝕋𝕆 ᴅᴏᴡɴʟᴏᴀᴅ ᴀ ᴛxᴛ ғɪʟᴇ 𝕤ᴇɴᴅ ʜᴇʀᴇ ⚡️')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
-    await bot.send_document(--1002095173433, x)
+    await bot.send_document(-1002000940862, x)
     await input.delete(True)
 
     path = f"./downloads/{m.chat.id}"
@@ -77,7 +77,7 @@ async def account_login(bot: Client, m: Message):
     await input1.delete(True)
     
 
-    await editable.edit("**𝔼ɴᴛᴇʀ ʀᴇ𝕤ᴏʟᴜᴛɪᴏɴ📸**\n144,240,360,480,720,1080 please choose quality")
+    await editable.edit("**𝔼ɴᴛᴇʀ ʀᴇ𝕤ᴏʟᴜᴛɪᴏɴ📸**\n\n144,240,360,480,720,1080 please choose quality")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -101,7 +101,7 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("Now Enter A Caption to add caption on your uploaded file")
+    await editable.edit("𝔼ɴᴛᴇʀ Your Name or send")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -111,7 +111,7 @@ async def account_login(bot: Client, m: Message):
     else:
         MR = raw_text3
    
-    await editable.edit("Now send the Thumb url/nEg » https://telegra.ph/file/1bf523c4b51530e57e84d.jpg \n Or if don't want thumbnail send = no")
+    await editable.edit("Now send the **Thumb url**\nEg : ``````\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -163,8 +163,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[🎬] Vid_ID:** {str(count).zfill(3)}.\n **Tɪᴛʟᴇ » {𝗻𝗮𝗺𝗲𝟭} ({res}){MR}.mkv\n\n **Bᴀᴛᴄʜ** » **{raw_text0}**'
-                cc1 = f'**[📕] Pdf_ID:** {str(count).zfill(3)}.\n **Tɪᴛʟᴇ » {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n\n **Bᴀᴛᴄʜ** » **{raw_text0}**'
+                cc = f'**[🎬]𝐕𝐈𝐃_𝐈𝐃 [🤖] ➤** {str(count).zfill(3)}.\n **[📝]𝐓𝐈𝐓𝐋𝐄  ➤** {𝗻𝗮𝗺𝗲𝟭} ({res})𓆩🖤𓆪Tapori 🥷.mkv\n\n **[♦]𝐁𝐀𝐓𝐂𝐇 ➤**{raw_text0}\n\n**Downloaded by ➤ {MR}**\n@taporibot_bot**'
+                cc1 = f'**[📕]𝐕𝐈𝐃_𝐈𝐃 [🤖] ➤** {str(count).zfill(3)}.\n **[📝]𝐓𝐈𝐓𝐋𝐄  ➤** {𝗻𝗮𝗺𝗲𝟭}𓆩🖤𓆪Tapori 🥷.pdf \n\n **[♦]𝐁𝐀𝐓𝐂𝐇 ➤**{raw_text0}\n\n**Downloaded by ➤ {MR}**\n@taporibot_bot**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -190,7 +190,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⏬️ 🄳🄾🅆🄽🄻🄾🄰🄳🄸🄽🄶 ⏬️... »**\n\n**🧾Name »** `{name}\n♻️Quality » {raw_text2}`\n\n**🔗URL »** `{url}`\n\n **🚩Bot made by srishti yadav ❤️**"
+                    Show = f"**📥𝐃𝐎𝐖𝐍𝐋𝐎𝐃𝐈𝐍𝐆📥 » [🤖] **\n\n**📑𝐍𝐀𝐌𝐄 »** `{name}\n🍀𝐐𝐔𝐀𝐋𝐈𝐓𝐘 » {raw_text2}`\n\n**📎𝐔𝐑𝐋 :-** `{url}`"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -207,7 +207,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**DONE BRO 😎**")
+    await m.reply_text("**DONE 😘**")
 
 
 bot.run()
